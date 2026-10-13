@@ -151,7 +151,7 @@ namespace StarterAssets
 			}
 		}
 
-		private void Move()
+		public void Move()
 		{
 			// set target speed based on move speed, sprint speed and if sprint is pressed
 			float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
@@ -198,7 +198,7 @@ namespace StarterAssets
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 		}
 
-		private void JumpAndGravity()
+		public void JumpAndGravity()
 		{
 			if (Grounded)
 			{

@@ -57,9 +57,19 @@
                     "priority": 0
                 },
                 {
-                    "name": "Equip",
+                    "name": "Interact",
                     "type": "Button",
                     "id": "213905f9-5da3-4add-954c-1be04c1f2046",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Equip",
+                    "type": "Button",
+                    "id": "d4e54350-2118-40f1-afb8-f006086211f8",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -262,6 +272,17 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";KeyboardMouse",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "27d45b64-74d0-4b82-a185-b0ddad1b948e",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
                     "action": "Equip",
                     "isComposite": false,
                     "isPartOfComposite": false
